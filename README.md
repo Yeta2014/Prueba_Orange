@@ -39,7 +39,7 @@ El script utiliza las siguientes configuraciones por defecto:
 ```plaintext
 .
 ├── datos.py               # Contiene datos necesarios como URL o información de entrada.
-├── script.py              # Script principal de automatización.
+├── prueba.py              # Script principal de automatización.
 ├── README.md              # Documentación del proyecto.
 └── requirements.txt       # Lista de dependencias.
 ```
