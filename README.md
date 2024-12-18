@@ -49,7 +49,7 @@ El script utiliza las siguientes configuraciones por defecto:
 1. Asegúrate de que los archivos necesarios estén configurados, especialmente `datos.py`.
 2. Ejecuta el script utilizando el siguiente comando:
    ```bash
-   python script.py
+   python prueba.py
    ```
 
 El script realiza lo siguiente:
