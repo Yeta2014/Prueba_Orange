@@ -110,6 +110,5 @@ from datos import datos, APP_URL
 - **Seguridad**: Si `datos.py` contiene información confidencial, no lo compartas ni subas a repositorios públicos.
 - **Depuración**: Utiliza `logging` para rastrear posibles errores.
 
-## Contribución
-Si deseas contribuir a este proyecto, abre un `pull request` o crea un `issue` en el repositorio correspondiente.
+
 
