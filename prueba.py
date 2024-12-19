@@ -58,6 +58,7 @@ class OrangeHRMAutomation:
             EC.element_to_be_clickable((By.XPATH, '//button[text()=" Add "]'))
         ).click()
         time.sleep(3)  # Esperar 3 segundos
+        
 
     def fill_form(self):
         """Llena el formulario con los datos del candidato."""
@@ -281,11 +282,7 @@ class OrangeHRMAutomation:
             except Exception as e:
                 logging.error(f"No se pudo encontrar o hacer clic en el último botón: {e}")# Esperar 3 segundos después de enviar los datos
                 
-        except Exception as e:
-            logging.error(f"No se pudo encontrar o interactuar con el campo de entrada: {e}")
-            
-            
-            
+                            
             logging.info("Esperando el último botón en la siguiente página...")
             try:
                 ultimo_boton = WebDriverWait(self.driver, 10).until(
